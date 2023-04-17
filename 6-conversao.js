@@ -4,7 +4,7 @@ const numero = 123;
 const stringNumero = "123";
 
 console.log(numero == stringNumero);//compara valor dado
-console.log(numero === stringNumero);//compara se realmente sao iguais
+console.log(numero === stringNumero);//compara se realmente sao iguais valor e tipo
 console.log(numero + stringNumero);//junta os dois valores 
 
 
@@ -15,5 +15,3 @@ console.log(numero + stringNumero);//junta os dois valores
 const num = 123;
 const stringNum = /*Number*/("123"); //podemos passar o tipo na variavel tambem
  console.log(num + Number(stringNum));// faz uma soma entre os dois valores
-
- 
